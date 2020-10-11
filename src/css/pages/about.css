@@ -1,0 +1,20 @@
+.aboutPage {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+p {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 700 !important;
+}
+
+h5 {
+  font-weight: 700 !important;
+}

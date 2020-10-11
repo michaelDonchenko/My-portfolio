@@ -1,0 +1,24 @@
+
+.homePage_right {
+  text-align: center;
+}
+
+.img { 
+  width: 100%;
+  border-radius: 50%;
+}
+
+.homePage {
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 576px) {
+  .img {
+    width: 80%;
+  }
+  .homePage_left {
+   text-align: center;
+  }
+}

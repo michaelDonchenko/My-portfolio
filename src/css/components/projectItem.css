@@ -1,0 +1,28 @@
+
+img {
+  width: 60%;
+  margin: 10px 0 15px 0;
+}
+
+.projectItem {
+  text-align: center !important;
+}
+
+.projectFooter {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+a {
+  color: black;
+}
+
+
+@media only screen and (max-width: 955px) {
+  .projectFooter {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
