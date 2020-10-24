@@ -1,4 +1,3 @@
-
 img {
   width: 60%;
   margin: 10px 0 15px 0;
@@ -17,12 +16,15 @@ a {
   color: black;
 }
 
-
-@media only screen and (max-width: 955px) {
+@media only screen and (max-width: 1000px) {
   .projectFooter {
     display: flex;
     justify-content: center;
     justify-content: space-between;
     flex-direction: column;
+  }
+
+  .myBtn {
+    margin-bottom: 15px;
   }
 }

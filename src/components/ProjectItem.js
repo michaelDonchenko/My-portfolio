@@ -27,25 +27,25 @@ const modal = () => (
   return (
     <div className="container projectItem mt-5 mb-5 card">
         <div class="card-body"> 
-         <h4>Project Name: {project.name}</h4>
+         <h4 style={{fontWeight: '600'}}>Project Name: {project.name}</h4>
          <img src={require(`../img/projects/${project.img}`)} />
          <h5 class="card-text">Built with: {project.builtWith}</h5>
-         <h5 class="card-text">Project Size: {project.size}</h5>
+         <h5 style={{color: 'grey'}} class="card-text">Project Size: {project.size}</h5>
 
          <div className="projectFooter mt-5">
            <div>
-            <button type="button" class="btn btn-raised" data-toggle="modal" data-target={`#${project.name}`}>
+            <button type="button" class="btn btn-raised myBtn" data-toggle="modal" data-target={`#${project.name}`}>
             <i class="fas fa-info-circle"></i> Project description
             </button> 
            </div>
           <div>
-            <button type="button" class="btn btn-raised">
+            <button type="button" class="btn btn-raised myBtn">
               <a target="_blank" style={{textDecoration: 'none'}} href={project.demoLink}>
               <i class="fas fa-arrow-right"></i> Watch live Demo</a>
             </button>
           </div>
           <div>
-            <button type="button" class="btn btn-raised">
+            <button type="button" class="btn btn-raised myBtn">
             <a target="_blank" style={{textDecoration: 'none'}} href={project.githubLink}>
             <i class="fab fa-github"></i> Github reposetory Code</a>
             </button>
