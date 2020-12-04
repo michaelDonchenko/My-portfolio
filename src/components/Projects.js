@@ -4,6 +4,17 @@ import ProjectItem from './ProjectItem'
 const Projects = () => {
   const projects = [
     {
+      name: 'Jewelry shop (real production site)',
+      description:
+        'This project is a jewelry shop i did for a client. Fully working production ecommerce app with fully working authentication system with firebase, Admin and customers features and dashboard, full working purchase system orders history and much more.',
+      size: 'medium-large',
+      builtWith: 'MERN Stack (Redux)',
+      img: 'jewelry.PNG',
+      githubLink: 'https://github.com/michaelDonchenko/olga-jewelry.01',
+      demoLink: 'https://olga-jewelry.herokuapp.com/',
+    },
+
+    {
       name: 'Pro-Shop',
       description:
         'My recent project Full ecommerce app. A lot of admin user functionallity like CRUD products view and update users and view and update orders. Users can buy products with paypal or credit card and see thier order history, Users can rate and comment the products, fully working authentication for logged in users and for admins.',
@@ -12,17 +23,6 @@ const Projects = () => {
       img: 'proShop.PNG',
       githubLink: 'https://github.com/michaelDonchenko/proShop',
       demoLink: 'https://pro-shop01.herokuapp.com/',
-    },
-
-    {
-      name: 'MERN-Auth-Template',
-      description:
-        'This is a Complete MERN authentication app I have made from with Context-API. Fully working authentication with login/register errors, anti hacking username && email, JWT and more. ',
-      size: 'Small',
-      builtWith: 'MERN Stack (Context-API)',
-      img: 'mernAuth.PNG',
-      githubLink: 'https://github.com/michaelDonchenko/mern-auth-V2',
-      demoLink: 'https://mern-auth-v2.herokuapp.com/',
     },
 
     {
